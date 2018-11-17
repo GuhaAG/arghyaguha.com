@@ -5,6 +5,9 @@ import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import './index.css'
 
+import favicon from '../../public/static/logo/favicon.png'
+
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -12,6 +15,9 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'Arghya Guha' },
         { name: 'keywords', content: 'This is my webpage' },
+      ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
     />
     <Header />
