@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import './index.css'
 
-import favicon from '../../public/static/logo/favicon.png'
+import favicon from '../images/favicon.png'
 
 
 const TemplateWrapper = ({ children }) => (
