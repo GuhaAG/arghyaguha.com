@@ -12,8 +12,8 @@ class Header extends React.Component {
                 </div>
                 <div className="inner">                 
                     <h1><strong>Hi, I am Arghya</strong>, a web developer living in Tokyo city.<br />                    
-                    Reach out to me for a chat about anything technology or just to hangout with a cold pint of Guinness.<br />
-                    Take a look at my  <a href="https://drive.google.com/open?id=1lv-LAU339PrYEccK12BSWaMZTQ4mImSb">resume</a>.</h1>
+                    Reach out to me for a chat about anything technology or just to hang out with a cold pint of Guinness.<br />
+                    Take a look at my  <a href="https://drive.google.com/open?id=0B2pKk-odH8VjTkhqU18wYjlucGtQSk44TmF5eGxqVFBoSDBj">resume</a>.</h1>
                 </div>
                 <Footer />
             </header>

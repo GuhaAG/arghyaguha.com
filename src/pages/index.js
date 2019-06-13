@@ -1,78 +1,16 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-
-import Layout from '../components/layout'
-// import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
-
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
-
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
-
-const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
-];
+import React from 'react';
+import Helmet from 'react-helmet';
+import Layout from '../components/layout';
+import skills from '../assets/images/skills-wordcloud.png';
 
 class HomeIndex extends React.Component {
 
     constructor() {
         super();
 
-        this.state = {
-            lightboxIsOpen: false,
-            currentImage: 0,
-        };
-
-        this.closeLightbox = this.closeLightbox.bind(this);
-        this.gotoNext = this.gotoNext.bind(this);
-        this.gotoPrevious = this.gotoPrevious.bind(this);
-        this.openLightbox = this.openLightbox.bind(this);
-        this.handleClickImage = this.handleClickImage.bind(this);
-    }
-
-    openLightbox (index, event) {
-        event.preventDefault();
-        this.setState({
-            currentImage: index,
-            lightboxIsOpen: true,
-        });
-    }
-    closeLightbox () {
-        this.setState({
-            currentImage: 0,
-            lightboxIsOpen: false,
-        });
-    }
-    gotoPrevious () {
-        this.setState({
-            currentImage: this.state.currentImage - 1,
-        });
-    }
-    gotoNext () {
-        this.setState({
-            currentImage: this.state.currentImage + 1,
-        });
-    }
-    handleClickImage () {
-        if (this.state.currentImage === this.props.images.length - 1) return;
-
-        this.gotoNext();
-    }
+        this.state = {            
+        };        
+    }    
 
     render() {
         const siteTitle = "arghyaguha.com"
@@ -87,22 +25,58 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                    <section id="one">
+                    <section id="aboutme">
                         <header className="major">
-                            <h2>Hello there<br />
-                            This is my personal webpage. It is still a work in progress.</h2>
+                            <h2>About Me</h2>
                         </header>
-                        <p>Please come back later when the site is ready.</p>                        
+                        I am Arghya Guha, software developer by profession working for a fintech startup based out of Tokyo, Japan.<br/>
+                        I was born and raised in India where I went to college to earn a Bachelors as well as a Masters degree majoring in Computer Science, before moving to Singapore for work for three years and then finally to Tokyo where I currently reside.
                     </section>
 
-                    <section id="two">
-                        <h2>Miscellaneous</h2>
-
+                    <section id="experiences">
+                        <header className="major">
+                            <h2>Experience</h2>
+                        </header>
+                        <b>2012-2017</b>: Works Applications Co. Ltd., <i>developing an e-commerce software package suite</i><br/>
+                        <b>2017-2018</b>: Takeover Holdings Co. Ltd., <i>developing a web service providing vacation rentals</i><br/>
+                        <b>2019-current</b>: Sapiat Pte. Ltd., <i>developing fintech software</i>
                     </section>
 
-                    <section id="three">
-                    
+                    <section id="education">
+                        <header className="major">
+                            <h2>Education</h2>
+                        </header>
+                        <p>
+                           <b>University of Calcutta, India</b><br/>
+                           Master of Science in Computer and Information Sciences (M.Sc.)<br/>
+                           <i>First Class with Honours</i><br/>
+                           2011-2012
+                        </p>
+                        <p>
+                        <b>University of Calcutta, India</b><br/>
+                           St. Xavier’s College, Calcutta<br/>
+                           Bachelor of Science with Computer Science major (B.Sc.)<br/>
+                           <i>First Class with Honours</i><br/>
+                           2007-2010
+                        </p>
                     </section>
+
+                    <section id="Tech Stack">                        
+                        <header className="major">
+                            <h2>Skills & Expertise</h2>
+                        </header>
+                        <img src={skills} alt="" />
+                        <p>Here's my <a href="https://drive.google.com/open?id=0B2pKk-odH8VjTkhqU18wYjlucGtQSk44TmF5eGxqVFBoSDBj">resume</a> for details</p>
+                    </section>
+
+                    <section id="Tech Stack">                        
+                        <header className="major">
+                            <h2>All work and no play</h2>
+                        </header>
+                        I enjoy reading, travelling, and grabbing a cold beer or two with friends.<br/>
+                        In my free time you can also find me adventuring in Tamriel, on the PC NA server of ESO @L0rd_Sn0w
+                    </section>
+
 
                 </div>
 
