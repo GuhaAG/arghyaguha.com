@@ -92,10 +92,7 @@ class HomeIndex extends React.Component {
                             <h2>Hello there<br />
                             This is my personal webpage. It is still a work in progress.</h2>
                         </header>
-                        <p>Please come back later when the site is ready.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
+                        <p>Please come back later when the site is ready.</p>                        
                     </section>
 
                     <section id="two">
