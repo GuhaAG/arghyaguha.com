@@ -66,7 +66,7 @@ class HomeIndex extends React.Component {
                             <h2>Skills & Expertise</h2>
                         </header>
                         <img src={skills} alt="" />
-                        <p>Here's my <a href="https://drive.google.com/open?id=0B2pKk-odH8VjTkhqU18wYjlucGtQSk44TmF5eGxqVFBoSDBj">resume</a> for details</p>
+                        <p>Here's my <a href="https://drive.google.com/file/d/1gCfpVrKAOpyA5pa-0vxip5x4bCy1ZTK5">resume</a> for details</p>
                     </section>
 
                     <section id="Tech Stack">                        
