@@ -39,7 +39,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <b>2012-2017</b>: Works Applications Co. Ltd., <i>developing an e-commerce software package suite</i><br/>
                         <b>2017-2018</b>: Takeover Holdings Co. Ltd., <i>developing a web service providing vacation rentals</i><br/>
-                        <b>2019- Oct2019</b>: Sapiat Pte. Ltd., <i>developing fintech software</i>
+                        <b>2019- Oct2019</b>: Sapiat Pte. Ltd., <i>developing fintech software</i><br/>
                         <b>Nov2019-current</b>: Rakuten Inc, <i>developing GIS software dealing with big data</i>
                     </section>
 
