@@ -29,7 +29,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>About Me</h2>
                         </header>
-                        I am Arghya Guha, software developer by profession working for a fintech startup based out of Tokyo, Japan.<br/>
+                        I am Arghya Guha, software developer by profession working for an e-commerce giant based out of Tokyo, Japan.<br/>
                         I was born and raised in India where I went to college to earn a Bachelors as well as a Masters degree majoring in Computer Science, before moving to Singapore for work for three years and then finally to Tokyo where I currently reside.
                     </section>
 
@@ -39,7 +39,8 @@ class HomeIndex extends React.Component {
                         </header>
                         <b>2012-2017</b>: Works Applications Co. Ltd., <i>developing an e-commerce software package suite</i><br/>
                         <b>2017-2018</b>: Takeover Holdings Co. Ltd., <i>developing a web service providing vacation rentals</i><br/>
-                        <b>2019-current</b>: Sapiat Pte. Ltd., <i>developing fintech software</i>
+                        <b>2019- Oct2019</b>: Sapiat Pte. Ltd., <i>developing fintech software</i>
+                        <b>Nov2019-current</b>: Rakuten Inc, <i>developing GIS software dealing with big data</i>
                     </section>
 
                     <section id="education">
@@ -66,7 +67,7 @@ class HomeIndex extends React.Component {
                             <h2>Skills & Expertise</h2>
                         </header>
                         <img src={skills} alt="" />
-                        <p>Here's my <a href="https://drive.google.com/file/d/1gCfpVrKAOpyA5pa-0vxip5x4bCy1ZTK5">resume</a> for details</p>
+                        <p>Here's my <a href="https://drive.google.com/open?id=1GTn4KN-T4xORfK65r9leimMsYklrQ7uU">resume</a> for more details</p>
                     </section>
 
                     <section id="Tech Stack">                        
