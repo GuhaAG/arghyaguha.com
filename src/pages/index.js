@@ -29,18 +29,18 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>About Me</h2>
                         </header>
-                        I am Arghya Guha, software developer by profession working for an e-commerce giant based out of Tokyo, Japan.<br/>
-                        I was born and raised in India where I went to college to earn a Bachelors as well as a Masters degree majoring in Computer Science, before moving to Singapore for work for three years and then finally to Tokyo where I currently reside.
+                        Arghya Guha is a software engineer building backends and APIs for a living for the last 8 years, currently based in Japan.<br/>
+                        He was born and raised in India where he went to college and earned a Bachelors and a Masters degree majoring in Computer Science.
                     </section>
 
                     <section id="experiences">
                         <header className="major">
-                            <h2>Experience</h2>
+                            <h2>Work Experience</h2>
                         </header>
                         <b>2012-2017</b>: Works Applications Co. Ltd., <i>developing an e-commerce software package suite</i><br/>
-                        <b>2017-2018</b>: Takeover Holdings Co. Ltd., <i>developing a web service providing vacation rentals</i><br/>
-                        <b>2019- Oct2019</b>: Sapiat Pte. Ltd., <i>developing fintech software</i><br/>
-                        <b>Nov2019-current</b>: Rakuten Inc, <i>developing GIS software dealing with big data</i>
+                        <b>2017-2018</b>: Takeover Holdings Co. Ltd., <i>developing a new web service providing vacation rentals</i><br/>
+                        <b>2019-Oct2019</b>: Sapiat Pte. Ltd., <i>developing a proprietary fintech dashboard</i><br/>
+                        <b>Nov2019-present</b>: Rakuten Inc., <i>developing APIs connecting GIS dashboards and mobile SDKs to data engineering pipelines</i>
                     </section>
 
                     <section id="education">
@@ -51,7 +51,7 @@ class HomeIndex extends React.Component {
                            <b>University of Calcutta, India</b><br/>
                            Master of Science in Computer and Information Sciences (M.Sc.)<br/>
                            <i>First Class with Honours</i><br/>
-                           2011-2012
+                           2010-2012
                         </p>
                         <p>
                         <b>University of Calcutta, India</b><br/>
@@ -62,22 +62,21 @@ class HomeIndex extends React.Component {
                         </p>
                     </section>
 
-                    <section id="Tech Stack">                        
+                    <section id="skills">                        
                         <header className="major">
                             <h2>Skills & Expertise</h2>
                         </header>
                         <img src={skills} alt="" />
-                        <p>Here's my <a href="https://drive.google.com/open?id=1GTn4KN-T4xORfK65r9leimMsYklrQ7uU">resume</a> for more details</p>
+                        <p>Here's my <a href="https://drive.google.com/file/d/1QfZ5IwYYpU-Vs7e0-iJ8lHTCZQMpY7BU/view?usp=sharing">resume</a> for more details</p>
                     </section>
 
-                    <section id="Tech Stack">                        
+                    <section id="misc">                        
                         <header className="major">
                             <h2>All work and no play</h2>
                         </header>
-                        I enjoy reading, travelling, and grabbing a cold beer or two with friends.<br/>
-                        In my free time you can also find me adventuring in Tamriel, on the PC NA server of ESO @L0rd_Sn0w
+                        Arghya enjoys reading, travelling, and grabbing a cold beer or two with friends.<br/>
+                        In his free time you can also find him adventuring in Tamriel, or battling evil in Eorzea.
                     </section>
-
 
                 </div>
 
