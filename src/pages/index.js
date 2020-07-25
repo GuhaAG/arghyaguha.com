@@ -33,7 +33,7 @@ class HomeIndex extends React.Component {
                         <br></br>
                         <br></br>
 
-                        I'm a full-stack software engineer with over 8 years of experience building enterprise web applications, currently coding backends and APIs for the data science division for one of Japan's top tech giants.
+                        I'm a full-stack software engineer with over 8 years of experience building enterprise web applications, currently coding backends and APIs for the data science division of one of Japan's top tech giants.
 
                         <br></br>
                         <br></br>
