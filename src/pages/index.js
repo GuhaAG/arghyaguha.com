@@ -69,10 +69,10 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Work Experience</h2>
                         </header>
-                        <b>2012-2017</b>: Works Applications Co. Ltd., <i> developing an e-commerce software package suite.</i><br />
+                        <b>Nov2019-present</b>: Rakuten Inc., <i> developing APIs connecting GIS dashboards and mobile SDKs to data engineering pipelines.</i><br />
+                        <b>Jan2019-Oct2019</b>: Sapiat Pte. Ltd., <i> developing a proprietary fintech dashboard.</i><br />
                         <b>2017-2018</b>: Takeover Holdings Co. Ltd., <i> developing a vacation rental web application for the Japanese market.</i><br />
-                        <b>2019-Oct2019</b>: Sapiat Pte. Ltd., <i> developing a proprietary fintech dashboard dealing with risk analysis and portfolio management.</i><br />
-                        <b>Nov2019-present</b>: Rakuten Inc., <i> developing APIs connecting GIS dashboards and mobile SDKs to data engineering pipelines.</i>
+                        <b>2012-2017</b>: Works Applications Co. Ltd., <i> developing an enterprise e-commerce software package suite.</i>
                     </section>
 
                     <section id="education">
@@ -99,7 +99,7 @@ class HomeIndex extends React.Component {
                             <h2>All work and no play</h2>
                         </header>
                         I enjoy reading, travelling, and grabbing a cold beer or two with friends.<br />
-                        I am a gaijin living the Tokyo life so feel free to reach out to just hang. 
+                        I am a gaijin living the Tokyo life, feel free to reach out to just hang.
                     </section>
 
                 </div>
