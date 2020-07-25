@@ -1,7 +1,7 @@
 {
   "name": "arghyaguha.com",
   "description": "personal webpage of arghya guha",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Arghya Guha <guha.agt@gmail.com>",
   "dependencies": {
     "gatsby": "^2.24.2",
@@ -21,7 +21,6 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "heroku-postbuild": "gatsby build",
     "start": "gatsby serve",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
