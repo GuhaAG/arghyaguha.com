@@ -28,7 +28,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>About</h2>
                         </header>
-                        I am Arghya Guha. I write code and sometimes i <a href="http://www.bourbonandcoding.com">write</a> about writing code.
+                        I am Arghya Guha. I write code and sometimes i <a href="https://dev.to/guha">write</a> about writing code.
 
                         <br></br>
                         <br></br>
