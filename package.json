@@ -5,10 +5,10 @@
   "author": "Arghya Guha <guha.agt@gmail.com>",
   "dependencies": {
     "gatsby": "^2.24.2",
-    "gatsby-plugin-manifest": "2.2.9",
+    "gatsby-plugin-manifest": "2.12.1",
     "gatsby-plugin-offline": "2.2.10",
-    "gatsby-plugin-react-helmet": "3.1.5",
-    "gatsby-plugin-sass": "2.1.12",
+    "gatsby-plugin-react-helmet": "3.10.0",
+    "gatsby-plugin-sass": "2.8.0",
     "node-sass": "4.12.0",
     "react": "16.9.0",
     "react-dom": "16.9.0",
